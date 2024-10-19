@@ -8,7 +8,7 @@ import TableMainComponent from "../components/Tables/TableMainComponent";
 import DialogAlertMain from "../components/DialogAlertMain";
 import RootLoading from "../components/RootLoading";
 import { useSelector } from "react-redux";
-import { enLang, idLang } from "../utilities/LanguageTextConfig";
+import { enLang, idLang } from "../utilities/languageTextConfig";
 import { useDelete, useGet, usePost, usePut } from "../hooks/dataHandler";
 import AlertMain from "../components/AlertMain";
 import { useOutletContext } from "react-router-dom";

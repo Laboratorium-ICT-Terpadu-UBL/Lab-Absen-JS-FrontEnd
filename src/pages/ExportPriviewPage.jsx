@@ -8,7 +8,7 @@ import pdfExporter from "../utilities/pdfExporter";
 import excellExporter from "../utilities/excellExporter";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { enLang, idLang } from "../utilities/LanguageTextConfig";
+import { enLang, idLang } from "../utilities/languageTextConfig";
 import { useGet } from "../hooks/dataHandler";
 import exportDataArrange from "../utilities/exportDataArrange";
 

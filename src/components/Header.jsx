@@ -6,7 +6,7 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import ModalMain from "./Modals/ModalMain";
 import LoginRenderModal from "./Modals/LoginRenderModal";
-import { enLang, idLang } from "../utilities/LanguageTextConfig";
+import { enLang, idLang } from "../utilities/languageTextConfig";
 import { usePost } from "../hooks/dataHandler";
 import AlertMain from "./AlertMain";
 import { authAction } from "../stores/authState";
