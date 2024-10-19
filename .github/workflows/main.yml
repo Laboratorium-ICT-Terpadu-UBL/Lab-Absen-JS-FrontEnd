@@ -9,8 +9,9 @@ jobs:
   test:
     runs-on: self-hosted
     steps:
-      - name: Check Out Code
-        uses: actions/checkout@v2
+      - name: Pull Code from Main Branch
+        run: |
+          git pull origin main
 
       - name: Set Up Node.js
         uses: actions/setup-node@v2
@@ -26,4 +27,4 @@ jobs:
       #     npm run build
           
       # - name: Restart the pm2
-      #   run: pm2 restart 1
+      #   run: pm2 restart 5
