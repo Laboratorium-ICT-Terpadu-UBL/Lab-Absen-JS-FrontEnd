@@ -10,7 +10,7 @@ import moment from "moment"
 import { useNavigate } from "react-router-dom"
 import ExportRenderModal from "../components/Modals/ExportRenderModal"
 import { useSelector } from "react-redux"
-import { enLang, idLang } from "../utilities/LanguageTextConfig"
+import { enLang, idLang } from "../utilities/languageTextConfig"
 import { useGet } from "../hooks/dataHandler"
 import AlertMain from "../components/AlertMain"
 

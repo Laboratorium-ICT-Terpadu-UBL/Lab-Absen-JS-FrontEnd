@@ -6,7 +6,7 @@ import { useDispatch, useSelector } from "react-redux"
 import { themeAction } from "../stores/themeState"
 import imagePatternB from "../assets/imagePaternB.jpg"
 import imagePatternW from "../assets/imagePaternW.png"
-import { enLang, idLang } from "../utilities/LanguageTextConfig"
+import { enLang, idLang } from "../utilities/languageTextConfig"
 import { langAction } from "../stores/langState"
 import { useNavigate } from "react-router-dom"
 

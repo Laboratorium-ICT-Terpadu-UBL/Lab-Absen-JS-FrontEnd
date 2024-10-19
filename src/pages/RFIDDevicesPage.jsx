@@ -2,7 +2,7 @@ import { Button, Card, CardContent, Container, Skeleton, Typography } from "@mui
 import RFIDCard from "../components/Cards/RFIDCard"
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import { enLang, idLang } from "../utilities/LanguageTextConfig";
+import { enLang, idLang } from "../utilities/languageTextConfig";
 import { useDelete, useGet, usePost, usePut } from "../hooks/dataHandler";
 import { faPlus } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

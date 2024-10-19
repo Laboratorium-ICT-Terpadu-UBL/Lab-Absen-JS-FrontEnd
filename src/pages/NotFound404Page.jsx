@@ -1,6 +1,6 @@
 import { Box, Typography } from "@mui/material"
 import { useSelector } from "react-redux"
-import { enLang, idLang } from "../utilities/LanguageTextConfig"
+import { enLang, idLang } from "../utilities/languageTextConfig"
 
 const NotFound404Page = () => {
     const { isEnLang } = useSelector(state => state.languages)
